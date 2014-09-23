@@ -94,9 +94,13 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: "xieyi64 Tech Space"
+      title: "叩德轩"
 
-description: "xieyi64 Tech Space, share technology post"
+description: "叩石垦壤，果行育德"
+comments :
+  provider : duoshuo
+  duoshuo :
+    short_name : xieyi64
 author:
   name: xieyi64
   email: xieyi64@gmail.com
@@ -104,9 +108,9 @@ author:
   twitter: xieyi64
   pinterest: xieyi64
   linkedin: xieyi64
-  bio: Do not build on quicksand high
+  bio:
 
-rss_path: rss.xml
+#rss_path: rss.xml
 categories_path: category.html
 tags_path: tag.html
 
