@@ -5,7 +5,9 @@ categories: [web服务端]
 tags: [nginx]
 ---
 
-##示例
+nginx默认日志格式没有配置响应时间
+
+##配置示例
 
 ~~~
 http {
