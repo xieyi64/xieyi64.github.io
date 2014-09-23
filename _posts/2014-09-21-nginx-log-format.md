@@ -9,7 +9,7 @@ nginx默认日志格式没有配置响应时间
 
 ##配置示例
 
-~~~
+~~~ nginx
 http {
 	log_format main '$remote_addr - $remote_user [$time_local] "$request" '
 	'$status $body_bytes_sent "$http_referer" '
